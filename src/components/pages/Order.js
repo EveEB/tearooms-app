@@ -1,6 +1,7 @@
 import sherlock from "./images/sherlock.jpg";
 import dalek from "./images/dalek.jpg";
 import woodland from "./images/woodland.jpg";
+import "../../assets/css/Order.css";
 
 export default function Order() {
   return (

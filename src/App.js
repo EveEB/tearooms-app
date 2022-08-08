@@ -1,12 +1,5 @@
 import "./assets/css/App.css";
-import "./assets/css/Book.css";
-import "./assets/css/Contact.css";
-import "./assets/css/Home.css";
 import "./assets/css/index.css";
-import "./assets/css/MeetTheTeam.css";
-import "./assets/css/Menu.css";
-import "./assets/css/NavBar.css";
-import "./assets/css/Order.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import OurStory from "./components/pages/OurStory";

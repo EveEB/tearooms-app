@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import "../../assets/css/Book.css";
 
 export default function Book() {
   return (

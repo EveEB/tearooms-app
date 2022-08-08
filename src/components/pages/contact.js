@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../../assets/css/Contact.css";
 
 function Contact() {
   const submitHandler = (event) => {

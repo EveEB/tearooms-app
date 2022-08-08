@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import "../../assets/css/Menu.css";
 
 export default function Menu() {
   return (

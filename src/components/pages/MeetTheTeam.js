@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import teamMembers from "../data/teamMembers";
 import Layout from "../data/infoLayout";
+import "../../assets/css/MeetTheTeam.css";
 
 function Team() {
   return (
