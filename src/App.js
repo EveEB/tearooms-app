@@ -1,5 +1,7 @@
+import React from "react";
 import "./assets/css/App.css";
 import "./assets/css/index.css";
+import "./assets/css/NavBar.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import OurStory from "./components/pages/OurStory";

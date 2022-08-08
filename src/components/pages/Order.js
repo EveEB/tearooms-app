@@ -1,3 +1,4 @@
+import React from "react";
 import sherlock from "./images/sherlock.jpg";
 import dalek from "./images/dalek.jpg";
 import woodland from "./images/woodland.jpg";

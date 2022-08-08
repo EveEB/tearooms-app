@@ -1,3 +1,4 @@
+import React from "react";
 import images from "./images";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";

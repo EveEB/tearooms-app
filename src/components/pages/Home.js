@@ -1,3 +1,4 @@
+import React from "react";
 import { Fragment } from "react";
 import Carousel from "../layout/carousel";
 import "../../assets/css/Home.css";

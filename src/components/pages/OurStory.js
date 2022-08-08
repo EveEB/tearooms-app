@@ -1,3 +1,4 @@
+import React from "react";
 import { Fragment } from "react";
 import kettle from "./images/kettle.jpg";
 import "../../assets/css/OurStory.css";
