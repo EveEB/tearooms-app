@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import kettle from "./images/kettle.jpg";
+import "./assets/css/OurStory.css";
 
 export default function OurStory() {
   return (
