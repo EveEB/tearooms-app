@@ -1,0 +1,40 @@
+body {
+  background-color: lightpink;
+}
+
+.our-story-header h1 {
+  font-size: 2.2rem;
+  color: rgb(92, 1, 1);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.our-story-header {
+  background-color: whitesmoke;
+  padding: 1.2rem;
+}
+
+.our-story-header p {
+  font-style: italic;
+  color: maroon;
+}
+
+.our-story-content {
+  display: flex;
+  justify-content: center;
+}
+
+.our-story-content img {
+  float: left;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.our-story-content p {
+  color: rgb(92, 1, 1);
+  width: 30%;
+  margin: 2rem;
+}

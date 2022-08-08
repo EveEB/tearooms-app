@@ -1,0 +1,102 @@
+body {
+  background-color: lightpink;
+}
+
+.home-header {
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+
+.home-header h1 {
+  font-size: 4rem;
+  color: rgb(92, 1, 1);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.home-header p {
+  font-style: italic;
+  color: maroon;
+}
+
+.vote-poll-container {
+  color: rgb(92, 1, 1);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* #vote-btn {
+  width: 6.8rem;
+  height: 2.2rem;
+  color: rgb(92, 1, 1);
+  text-align: center;
+  background: whitesmoke;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: solid 1px whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+.button {
+  border-radius: 5px;
+  background-color: whitesmoke;
+  border: solid 1px whitesmoke;
+  color: rgb(92, 1, 1);
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 0px;
+  width: 10rem;
+  height: 2.6rem;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*-------------------IMAGE CAROUSEL-------------------*/
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+  margin: 0 8%;
+}
+
+.item {
+  min-height: 30rem;
+  min-width: 20rem;
+  padding: 20px 40px 20px 40px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
+.inner-carousel {
+  display: flex;
+}

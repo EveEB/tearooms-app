@@ -1,0 +1,71 @@
+body {
+  background-color: lightpink;
+}
+
+.order-header {
+  background-color: whitesmoke;
+  padding: 1.2rem;
+}
+
+.order-header h1 {
+  font-size: 2.2rem;
+  color: rgb(92, 1, 1);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.order-header p {
+  font-style: italic;
+  color: maroon;
+}
+
+.order-content p {
+  color: rgb(92, 1, 1);
+}
+
+.tea-options-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tea-options h3 {
+  color: rgb(92, 1, 1);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.tea-options p {
+  color: rgb(92, 1, 1);
+  width: 280px;
+  border-radius: 10px;
+}
+
+.tea-options img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.order-form-container {
+  color: whitesmoke;
+  background: maroon;
+  padding: 20px;
+  height: max-content;
+}
+
+.order-form-container h2 {
+  padding: 20px;
+}
+
+#order-btn {
+  width: 6.8rem;
+  height: 2.2rem;
+  color: rgb(92, 1, 1);
+  background: whitesmoke;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: solid 1px whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}

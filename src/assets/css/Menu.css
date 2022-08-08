@@ -1,0 +1,45 @@
+body {
+  background-color: lightpink;
+}
+
+.menu-header {
+  background-color: whitesmoke;
+  padding: 1.2rem;
+}
+
+.menu-header h1 {
+  font-size: 2.2rem;
+  color: rgb(92, 1, 1);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.menu-header p {
+  font-style: italic;
+  color: maroon;
+}
+
+.menu-content p {
+  color: rgb(92, 1, 1);
+}
+
+.menu-container {
+  width: 600px;
+  height: 880px;
+  background: whitesmoke;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.menu-header h2 {
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.menu-content {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 20px 0 20px;
+  padding: 0 30px 0 30px;
+}

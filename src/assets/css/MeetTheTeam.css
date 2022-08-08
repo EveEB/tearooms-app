@@ -1,0 +1,17 @@
+.our-team h1 {
+  font-size: 2.2rem;
+  color: rgb(92, 1, 1);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.our-team {
+  background-color: whitesmoke;
+  padding: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.our-team p {
+  font-style: italic;
+  color: maroon;
+}
