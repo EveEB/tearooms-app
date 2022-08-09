@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tearooms-app/static/css/main.3c216233.css",
-    "main.js": "/tearooms-app/static/js/main.e0883009.js",
+    "main.js": "/tearooms-app/static/js/main.ac955a6a.js",
     "static/js/787.26da9b02.chunk.js": "/tearooms-app/static/js/787.26da9b02.chunk.js",
     "static/media/kettle.jpg": "/tearooms-app/static/media/kettle.69acf7848ebd6fb420b3.jpg",
     "static/media/cake.jpg": "/tearooms-app/static/media/cake.52a2ca09be7450ce374f.jpg",
@@ -14,11 +14,11 @@
     "static/media/dalek.jpg": "/tearooms-app/static/media/dalek.f02ed7144de0059fb4cd.jpg",
     "index.html": "/tearooms-app/index.html",
     "main.3c216233.css.map": "/tearooms-app/static/css/main.3c216233.css.map",
-    "main.e0883009.js.map": "/tearooms-app/static/js/main.e0883009.js.map",
+    "main.ac955a6a.js.map": "/tearooms-app/static/js/main.ac955a6a.js.map",
     "787.26da9b02.chunk.js.map": "/tearooms-app/static/js/787.26da9b02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c216233.css",
-    "static/js/main.e0883009.js"
+    "static/js/main.ac955a6a.js"
   ]
 }
