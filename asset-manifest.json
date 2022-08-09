@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tearooms-app/static/css/main.3c216233.css",
+    "main.js": "/tearooms-app/static/js/main.d9dc6ed2.js",
+    "static/js/787.26da9b02.chunk.js": "/tearooms-app/static/js/787.26da9b02.chunk.js",
+    "static/media/kettle.jpg": "/tearooms-app/static/media/kettle.69acf7848ebd6fb420b3.jpg",
+    "static/media/cake.jpg": "/tearooms-app/static/media/cake.52a2ca09be7450ce374f.jpg",
+    "static/media/woodland.jpg": "/tearooms-app/static/media/woodland.6df3684a734ce3af05ce.jpg",
+    "static/media/street.jpg": "/tearooms-app/static/media/street.04492cf4431772a71705.jpg",
+    "static/media/tea-and-cake.jpg": "/tearooms-app/static/media/tea-and-cake.450d4485e3921e500240.jpg",
+    "static/media/norwich.jpg": "/tearooms-app/static/media/norwich.70d13fa1941808386baa.jpg",
+    "static/media/sherlock.jpg": "/tearooms-app/static/media/sherlock.fb37ea8a55ee967e1ded.jpg",
+    "static/media/scone2.jpg": "/tearooms-app/static/media/scone2.64f0d0627ed1ae55393b.jpg",
+    "static/media/dalek.jpg": "/tearooms-app/static/media/dalek.f02ed7144de0059fb4cd.jpg",
+    "index.html": "/tearooms-app/index.html",
+    "main.3c216233.css.map": "/tearooms-app/static/css/main.3c216233.css.map",
+    "main.d9dc6ed2.js.map": "/tearooms-app/static/js/main.d9dc6ed2.js.map",
+    "787.26da9b02.chunk.js.map": "/tearooms-app/static/js/787.26da9b02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c216233.css",
+    "static/js/main.d9dc6ed2.js"
+  ]
+}
