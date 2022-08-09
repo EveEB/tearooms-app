@@ -20,23 +20,15 @@ function App() {
       <div className="content-wrap">
         <BrowserRouter>
           <Routes>
-            <Route path="/tearooms-app" element={<NavBar />}>
+            <Route path="/" element={<NavBar />}>
               <Route index element={<Home />} />
-              <Route path="/tearooms-app/Home" exact element={<Home />} />
-              <Route
-                path="/tearooms-app/OurStory"
-                exact
-                element={<OurStory />}
-              />
-              <Route path="/tearooms-app/Menu" exact element={<Menu />} />
-              <Route path="/tearooms-app/Contact" exact element={<Contact />} />
-              <Route
-                path="/tearooms-app/MeetTheTeam"
-                exact
-                element={<Team />}
-              />
-              <Route path="/tearooms-app/Book" exact element={<Book />} />
-              <Route path="/tearooms-app/Order" exact element={<Order />} />
+              <Route path="Home" exact element={<Home />} />
+              <Route path="OurStory" exact element={<OurStory />} />
+              <Route path="Menu" exact element={<Menu />} />
+              <Route path="Contact" exact element={<Contact />} />
+              <Route path="MeetTheTeam" exact element={<Team />} />
+              <Route path="Book" exact element={<Book />} />
+              <Route path="Order" exact element={<Order />} />
             </Route>
           </Routes>
         </BrowserRouter>
