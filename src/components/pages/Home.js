@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import Carousel from "../layout/carousel";
 import "../../assets/css/Home.css";
 
-export default function Home() {
+function Home() {
   return (
     <Fragment>
       <div className="home-container">
@@ -23,3 +23,5 @@ export default function Home() {
     </Fragment>
   );
 }
+
+export default Home;
