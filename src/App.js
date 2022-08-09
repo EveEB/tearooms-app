@@ -2,7 +2,7 @@ import React from "react";
 import "./assets/css/App.css";
 import "./assets/css/index.css";
 import "./assets/css/NavBar.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 import Home from "./components/pages/Home";
 import OurStory from "./components/pages/OurStory";
 import Menu from "./components/pages/Menu";
@@ -20,7 +20,7 @@ function App() {
       <div className="content-wrap">
         <NavBar />
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/Home" exact element={<Home />} />
           <Route path="/OurStory" exact element={<OurStory />} />
           <Route path="/Menu" exact element={<Menu />} />
@@ -31,6 +31,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
+      <Outlet />
     </div>
   );
 }
