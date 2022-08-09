@@ -19,20 +19,16 @@ function App() {
     <div className="page-container">
       <div className="content-wrap">
         <NavBar />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />}>
-              <Route index element={<Home />} />
-              <Route path="Home" exact element={<Home />} />
-              <Route path="OurStory" exact element={<OurStory />} />
-              <Route path="Menu" exact element={<Menu />} />
-              <Route path="Contact" exact element={<Contact />} />
-              <Route path="MeetTheTeam" exact element={<Team />} />
-              <Route path="Book" exact element={<Book />} />
-              <Route path="Order" exact element={<Order />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
+        <Routes>
+          <Route path="/" index element={<Home />} />
+          <Route path="/Home" exact element={<Home />} />
+          <Route path="/OurStory" exact element={<OurStory />} />
+          <Route path="/Menu" exact element={<Menu />} />
+          <Route path="/Contact" exact element={<Contact />} />
+          <Route path="/MeetTheTeam" exact element={<Team />} />
+          <Route path="/Book" exact element={<Book />} />
+          <Route path="/Order" exact element={<Order />} />
+        </Routes>
       </div>
       <Footer />
     </div>
