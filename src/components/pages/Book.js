@@ -26,39 +26,39 @@ export default function Book() {
             <div className="form-section">
               <h2>Booking Request</h2>
               <div className="book-form-row">
-                <label for="date">Date:</label>
+                <label htmlFor="date">Date:</label>
                 <input type="date" id="date" name="date" />
               </div>
               <br />
               <div className="book-form-row">
-                <label for="time">Time:</label>
+                <label htmlFor="time">Time:</label>
                 <input type="time" id="time" name="time" />
               </div>
               <br />
               <div className="book-form-row">
-                <label for="people">No. People:</label>
+                <label htmlFor="people">No. People:</label>
                 <input type="number" id="people" name="people" />
               </div>
             </div>
             <div className="form-section">
               <h2>Contact Details</h2>
               <div className="book-form-row">
-                <label for="fname">First name:</label>
+                <label htmlFor="fname">First name:</label>
                 <input type="text" id="fname" name="fname" />
               </div>
               <br />
               <div className="book-form-row">
-                <label for="lname">Last name:</label>
+                <label htmlFor="lname">Last name:</label>
                 <input type="text" id="lname" name="lname" />
               </div>
               <br />
               <div className="book-form-row">
-                <label for="email">Email:</label>
+                <label htmlFor="email">Email:</label>
                 <input type="email" id="email" name="email" />
               </div>
               <br />
               <div className="book-form-row">
-                <label for="phone">Phone number:</label>
+                <label htmlFor="phone">Phone number:</label>
                 <input type="tel" id="phone" name="phone" />
               </div>
               <br />

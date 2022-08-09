@@ -5,6 +5,7 @@ import Layout from "../data/infoLayout";
 import "../../assets/css/MeetTheTeam.css";
 
 function Team() {
+  let id = 0;
   return (
     <Fragment>
       <div className="our-team">
@@ -13,7 +14,8 @@ function Team() {
       </div>
 
       {teamMembers.map((e) => {
-        return <Layout name={e.name} role={e.role} quote={e.quote} />;
+        id++;
+        return <Layout name={e.name} role={e.role} quote={e.quote} key={id} />;
       })}
     </Fragment>
   );
