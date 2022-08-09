@@ -7,7 +7,7 @@ function NavBar() {
       <nav>
         <ul className="nav-bar-list">
           <li>
-            <Link to="/tearooms-app/Home">Home</Link>
+            <Link to="/Home">Home</Link>
           </li>
           <li>
             <Link to="/OurStory">Our Story</Link>
@@ -19,7 +19,7 @@ function NavBar() {
             <Link to="/contact">Contact Us</Link>
           </li>
           <li>
-            <Link to="/tearooms-app/MeetTheTeam">Meet the Team</Link>
+            <Link to="/MeetTheTeam">Meet the Team</Link>
           </li>
           <li>
             <Link to="/Book">Book a Table</Link>
