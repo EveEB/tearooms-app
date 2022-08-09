@@ -18,9 +18,10 @@ function App() {
   return (
     <div className="page-container">
       <div className="content-wrap">
+        <NavBar />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<NavBar />}>
+            <Route path="/" element={<Home />}>
               <Route index element={<Home />} />
               <Route path="Home" exact element={<Home />} />
               <Route path="OurStory" exact element={<OurStory />} />
