@@ -20,7 +20,7 @@ function App() {
       <div className="content-wrap">
         <NavBar />
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/Home" exact element={<Home />} />
           <Route path="/OurStory" exact element={<OurStory />} />
           <Route path="/Menu" exact element={<Menu />} />

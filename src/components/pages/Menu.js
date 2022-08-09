@@ -8,7 +8,6 @@ export default function Menu() {
       <div className="menu">
         <div className="menu-header">
           <h1>Menu</h1>
-          <p>HELLO</p>
           <p>New menu for 2022!</p>
         </div>
         <br></br>
